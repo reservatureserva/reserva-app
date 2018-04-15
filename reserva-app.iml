@@ -7,4 +7,11 @@
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/www" />
+      </list>
+    </option>
+  </component>
 </module>

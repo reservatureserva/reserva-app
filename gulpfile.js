@@ -68,4 +68,4 @@ gulp.task('html', function () {
 
 });
 
-gulp.task('public', ['html', 'js', 'sass', 'css']);
+gulp.task('public', ['html', 'js', 'sass','imgmin']);
