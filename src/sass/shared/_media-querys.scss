@@ -1,0 +1,101 @@
+﻿@mixin printMedia {
+  @media only print {
+    @content
+  }
+}
+
+/*==================================================
+=            Bootstrap Media Queries               =
+=https://v4-alpha.getbootstrap.com/layout/overview/=
+==================================================*/
+/*========== Mobile First Method ===========*/
+// Small devices (landscape phones, 576px and up)
+@mixin MF-xxs {
+  @media (min-width: 375px) {
+    @content
+  }
+}
+
+@mixin MF-xs {
+  @media (min-width: 576px) {
+    @content
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin MF-sm {
+  @media (min-width: 768px) {
+    @content
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@mixin MF-md {
+  @media (min-width: 992px) {
+    @content
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@mixin MF-lg {
+  @media (min-width: 1200px) {
+    @content
+  }
+}
+
+@mixin MF-mlg {
+  @media (min-width: 1440px) {
+    @content
+  }
+}
+
+@mixin MF-xlg {
+  @media (min-width: 1600px) {
+    @content
+  }
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+@mixin down-xxs {
+  @media (max-width: 375px) {
+    @content
+  }
+}
+// Extra small devices (portrait phones, less than 576px)
+@mixin down-xs {
+  @media (max-width: 575px) {
+    @content
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin down-sm {
+
+  @media (max-width: 767px) {
+    @content
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin down-md {
+  @media (max-width: 991px) {
+    @content
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin down-lg {
+
+  @media (max-width: 1199px) {
+    @content
+  }
+}
+
+
+// Large devices (desktops, less than 1200px)
+@mixin down-xlg {
+
+  @media (max-width: 1440px) {
+    @content
+  }
+}
